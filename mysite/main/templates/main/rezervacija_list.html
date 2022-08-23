@@ -1,0 +1,11 @@
+{% extends "base_generic.html" %}
+{% block content %}
+<br>
+<h2> Rezervacija </h2>
+<br>
+{% for Rezervacija in rezervacija_list %}
+<div class="Rezervacija">
+    <h4>{{ Rezervacija.Djelatnik}}</h4>
+</div>
+{% endfor %}
+{% endblock %}
